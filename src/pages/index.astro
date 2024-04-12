@@ -3,10 +3,12 @@ import { ThreeDCardDemo } from "@/components/3d-card";
 import Layout from "../layouts/Layout.astro";
 import AnimatedPinDemo from "@/components/3d-pin";
 import BackgroundBoxesDemo from "@/components/BackgroundBoxesDemo";
+import { FloatingNavDemo } from "@/components/FloatingNavDemo";
 ---
 
 <Layout title="Welcome to Astro.">
   <BackgroundBoxesDemo client:load />
   <ThreeDCardDemo client:load />
   <AnimatedPinDemo client:load />
+  <FloatingNavDemo client:load />
 </Layout>

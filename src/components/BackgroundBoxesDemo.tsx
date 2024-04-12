@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import { Boxes } from "../ui/background-boxes";
 import { cn } from "@/utils/cn";
 
