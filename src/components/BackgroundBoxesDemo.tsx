@@ -8,10 +8,10 @@ export default function BackgroundBoxesDemo() {
 
       <Boxes />
       <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
-        Aceternity UI is Awesome
+        Build beautiful websites with
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
-      🐐 @mannupaaji is a goated front end dev NGL 
+        Astro and Aceternity UI
       </p>
     </div>
   );

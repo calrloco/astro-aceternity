@@ -4,11 +4,19 @@ import Layout from "../layouts/Layout.astro";
 import AnimatedPinDemo from "@/components/3d-pin";
 import BackgroundBoxesDemo from "@/components/BackgroundBoxesDemo";
 import { FloatingNavDemo } from "@/components/FloatingNavDemo";
+import EvervaultCardDemo from "@/components/EvervaultCardDemo";
+import { AuroraBackgroundDemo } from "@/components/AuroraBackGroundDemo";
+import { GridBackground } from "@/ui/GridBackground";
+import Hero from "@/components/Hero";
 ---
 
-<Layout title="Welcome to Astro.">
-  <BackgroundBoxesDemo client:load />
-  <ThreeDCardDemo client:load />
-  <AnimatedPinDemo client:load />
+<Layout title="Welcome to Astro-Aceternity-ui template.">
   <FloatingNavDemo client:load />
+  <Hero client:load />
+  <div class="grid gap-4 lg:grid-cols-3 md:grid-cols-2 place-items-center">
+    <ThreeDCardDemo client:load />
+    <AnimatedPinDemo client:load />
+    <EvervaultCardDemo client:load />
+  </div>
+  <BackgroundBoxesDemo client:load />
 </Layout>

@@ -9,13 +9,13 @@ export function FloatingNavDemo() {
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "About",
-      link: "/#",
+      name: "Aceternity UI",
+      link: "https://ui.aceternity.com/",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "Contact",
-      link: "/#",
+      name: "Github",
+      link: "/https://github.com/calrloco/astro-aceternity",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
