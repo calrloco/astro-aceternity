@@ -1,50 +1,30 @@
 # Astro Starter Template with Aceternity UI
 
-This starter template integrates the Aceternity UI component library, designed for Next.js, into an Astro project using React components. It provides a seamless way to use Aceternity's beautifully crafted UI components in your Astro applications.
+This starter template is tailored for developers looking to integrate the Aceternity UI component library, originally designed for Next.js, into Astro projects. It offers a straightforward method to incorporate Aceternity's refined UI components directly into your Astro applications without the need for additional configurations like React import statements.
 
 ## Features
 
-- **Aceternity UI Integration**: Fully integrated Aceternity UI component library.
-- **React Support**: Utilizes React for dynamic components within Astro.
+- **Aceternity UI Integration**: Pre-integrated with the Aceternity UI component library for immediate use.
+- **Simplified Setup**: Components and demo examples included in the project, allowing for quick and easy customization.
 
 ## Prerequisites
 
+- Node.js installed on your machine.
 
 ## Getting Started
 
-Follow these steps to get started with this starter template:
+You can create a new project using this template directly from the repository:
 
-1. **Clone the Repository**
+1. **Create a New Repository from the Template**
+   Visit https://github.com/calrloco/astro-aceternity and use the "Use this template" button to create a new repository based on this starter template.
+
+2. **Install Dependencies and Start Development**
    ```bash
-   git clone https://github.com/yourusername/astro-aceternity-template.git
-   cd astro-aceternity-template
+   npm install && npm run astro dev
    ```
 
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+   Access your project at http://localhost:4321/
 
-3. **Run the Development Server**
-   ```bash
-   npm run dev
-   ```
-
-   Visit `http://localhost:3000` in your browser to see your project in action.
-
-## Example Usage
-
-Here's how to use an Aceternity UI component within your Astro project:
-
-```astro
----
-// Import React and your component at the top of your .astro file
-import React from 'react';
-import { Button } from '@aceternity/ui';
----
-
-<Button variant="primary">Click Me</Button>
-```
 
 ## Contributing
 
@@ -53,3 +33,5 @@ Contributions are always welcome! Please read the [contribution guidelines](CONT
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+---
