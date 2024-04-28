@@ -15,12 +15,12 @@ export default function Hero() {
             Make your websites look 10x awesome
           </p>
         </div>
-        <div className="grid grid-rows-2 gap-3 absolute left-1/2 pl-10">
+        <div className="grid grid-rows-2 gap-3 absolute left-1/2 pl-5">
           <div className="flex gap-3 items-center">
             <MeteorsDemo />
             <GlowingStarsBackgroundCardPreview />
           </div>
-          <div className="-bottom-[90%] row-start-2">
+          <div className="row-start-2">
             <TextRevealCardPreview />
           </div>
         </div>
