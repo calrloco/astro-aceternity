@@ -6,23 +6,21 @@ import BackgroundBoxesDemo from "@/components/BackgroundBoxesDemo";
 import { FloatingNavDemo } from "@/components/FloatingNavDemo";
 import EvervaultCardDemo from "@/components/EvervaultCardDemo";
 import Hero from "@/components/Hero";
-import { WobbleCardDemo } from "@/components/WobbleCardDemo";
+import { BentoGridDemo } from "@/components/BentoGridDemo";
+import { CanvasRevealEffectDemo } from "@/components/CanvasRevealEffectDemo";
 ---
 
 <Layout title="Welcome to Astro-Aceternity-ui template.">
   <FloatingNavDemo client:load />
   <Hero client:load />
-  <div class="grid place-items-center">
-    <div
-      class="grid mt-10 gap-4 lg:grid-cols-3 md:grid-cols-2 place-items-center"
-    >
-      <ThreeDCardDemo client:load />
-      <AnimatedPinDemo client:load />
-      <EvervaultCardDemo client:load />
-    </div>
+  <div class="grid grid-cols-2">
+    <BentoGridDemo client:load />
   </div>
-  <div class="p-10 gap-4 grid place-items-center">
-    <WobbleCardDemo client:load />
+  <div
+    class="grid mt-10 gap-4 place-items-center lg:grid-cols-3 md:grid-cols-2"
+  >
+    <ThreeDCardDemo client:load />
+    <AnimatedPinDemo client:load />
+    <EvervaultCardDemo client:load />
   </div>
-  <BackgroundBoxesDemo client:load />
 </Layout>

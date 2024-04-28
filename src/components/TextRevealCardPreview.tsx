@@ -7,7 +7,7 @@ import {
 
 export function TextRevealCardPreview() {
   return (
-    <div className="">
+    <div className="w-[42rem]">
       <TextRevealCard
         text="You know the business"
         revealText="I know the chemistry "
