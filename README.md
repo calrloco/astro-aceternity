@@ -1,4 +1,4 @@
-# Astro Starter Template with Aceternity UI
+# Astro 🤝 Aceternity UI Starter Template
 
 This starter template seamlessly integrates the Aceternity UI component library, originally crafted for Next.js, into
 Astro projects. It offers a quick setup for developers aiming to use Aceternity UI components in an
@@ -32,19 +32,6 @@ Jumpstart your development with the Astro Starter Template in just a few steps:
    ```shell
    npm install
    ```
-
-## How to Contribute
-
-Interested in contributing? We love your input! We want to make contributing to this project as easy and transparent as
-possible, whether it's:
-
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
-
-Please read our [Contribution Guidelines](CONTRIBUTING.md) for directions on how to do so effectively.
 
 ## Support
 
