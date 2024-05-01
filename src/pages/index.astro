@@ -7,16 +7,20 @@ import EvervaultCardDemo from "@/components/EvervaultCardDemo";
 import Hero from "@/components/Hero";
 import { BentoGridDemo } from "@/components/BentoGridDemo";
 import { BentoGridDemo2 } from "@/components/BentoGridDemo2";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 ---
 
 <Layout title="Welcome to Astro-Aceternity-ui template.">
   <FloatingNavDemo client:load />
   <Hero client:load />
-  <div class="grid grid-cols-2 px-10">
+  <div class="grid-cols-2 px-10 hidden lg:grid">
     <BentoGridDemo client:load />
     <div class="mt-[150px]">
-      <BentoGridDemo2 />
+      <BentoGridDemo2 client:load />
     </div>
+  </div>
+  <div class="grid lg:hidden">
+    <InfiniteMovingCardsDemo client:load />
   </div>
   <div
     class="grid mt-10 gap-4 place-items-center lg:grid-cols-3 md:grid-cols-2"
