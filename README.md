@@ -23,13 +23,15 @@ Astro project.
 Jumpstart your development with the Astro Starter Template in just a few steps:
 
 1. **Create a New Repository from This Template**
-    - Click on the "Use this template" button at the top of this GitHub page to start a new repository with this
-      template.
+
+   - Click on the "Use this template" button at the top of this GitHub page to start a new repository with this
+     template.
 
 2. **Install Dependencies**
    Open your terminal and run:
    ```shell
    npm install
+   ```
 
 ## How to Contribute
 
@@ -57,12 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ## Acknowledgments
 
-- Special thanks to the creators of Aceternity UI for their fantastic work.
-- Thank you to everyone who has contributed to this project!
-
-## What's Next?
-
-- Look out for upcoming updates and new component integrations.
-- Check the [project roadmap](ROADMAP.md) for future plans and enhancements.
-
-```
+- Special thanks to the creator of Aceternity UI [@mannupaaji](https://twitter.com/mannupaaji) for the fantastic work.
