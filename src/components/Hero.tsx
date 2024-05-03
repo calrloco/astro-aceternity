@@ -11,7 +11,7 @@ export default function Hero() {
     <GridBackground>
       <div className="grid lg:grid-cols-2 gap-5">
         <div className="flex pl-10 items-center">
-          <p className="text-3xl text-7xl font-bold mb-6 relative text-left dark:text-zinc-100 text-zinc-700 max-w-4xl">
+          <p className="text-7xl font-bold mb-6 relative text-left dark:text-zinc-100 text-zinc-700 max-w-4xl">
             Make your websites look 10x awesome
           </p>
         </div>
@@ -20,7 +20,7 @@ export default function Hero() {
             <MeteorsDemo />
             <GlowingStarsBackgroundCardPreview />
           </div>
-          <div className="row-start-2">
+          <div className="row-start-2 hidden xl:flex">
             <TextRevealCardPreview />
           </div>
         </div>
