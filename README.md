@@ -24,8 +24,7 @@ Jumpstart your development with the Astro Starter Template in just a few steps:
 
 1. **Create a New Repository from This Template**
 
-Click on the "Use this template" button at the top of this GitHub page to start a new repository with this
-     template.
+  Click on the "Use this template" button at the top of this GitHub page to start a new repository with this template.
 
 2. **Install Dependencies**
    Open your terminal and run:
