@@ -36,7 +36,7 @@ Jumpstart your development with the Astro Starter Template in just a few steps:
 ## Support
 
 If you encounter any problems or have any queries about using the template, please file an
-issue [here](https://github.com/calrloco/astro-aceternity/issues).
+issue.
 
 ## License
 
