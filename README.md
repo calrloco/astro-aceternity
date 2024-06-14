@@ -24,15 +24,24 @@ Jumpstart your development with the Astro Starter Template in just a few steps:
 
 1. **Create a New Repository from This Template**
 
-   - Click on the "Use this template" button at the top of this GitHub page to start a new repository with this
+Click on the "Use this template" button at the top of this GitHub page to start a new repository with this
      template.
 
 2. **Install Dependencies**
    Open your terminal and run:
+
    ```shell
    npm install
    ```
 
+3. **Local Development**
+    ```shell
+    npm run dev
+   ```
+4. **Build for production**
+    ```shell
+    npm run build
+   ```
 ## Support
 
 If you encounter any problems or have any queries about using the template, please file an

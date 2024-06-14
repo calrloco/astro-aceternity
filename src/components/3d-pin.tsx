@@ -1,4 +1,3 @@
-import React from "react";
 import { PinContainer } from "../ui/3d-pin";
 
 export default function AnimatedPinDemo() {

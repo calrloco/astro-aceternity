@@ -1,9 +1,6 @@
 import { GridBackground } from "@/ui/GridBackground";
 import { MeteorsDemo } from "./MeteorsDemo";
-import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
-import { FollowingPointerDemo } from "./FollowingPointerDemo";
 import { TextRevealCardPreview } from "./TextRevealCardPreview";
-import AnimatedPinDemo from "./3d-pin";
 import { GlowingStarsBackgroundCardPreview } from "./GlowingStarsBackgroundCardPreview";
 
 export default function Hero() {
