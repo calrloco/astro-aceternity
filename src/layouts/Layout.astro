@@ -20,10 +20,10 @@ const { title } = Astro.props;
     <slot />
   </body>
   <footer
-    class="border-t mt-20 border-neutral-100 border-white/[0.1] px-8 py-20 bg-brand"
+    class="border-t mt-20 border-neutral-100 border-white/[0.1] px-8 py-20 grid"
   >
     <div
-      class="max-w-7xl mx-auto text-sm text-neutral-500 flex sm:flex-row flex-col justify-between items-start"
+      class="mx-auto text-sm text-neutral-500 flex sm:flex-row flex-col justify-between items-start"
     >
       <div>
         <div class="mr-4 md:flex mb-4">
@@ -36,39 +36,10 @@ const { title } = Astro.props;
             >
               <div class="text-sm text-emerald-500 relative z-20"></div>
             </div>
-
             <div class="flex flex-col">
               <h1 class="text-black dark:text-white">Astro 🤝 Aceternity UI</h1>
             </div>
           </a>
-        </div><div>
-        
-        </div><div class="mt-2">
-          Thank you<!-- -->
-          <a
-            class="dark:text-sky-500 font-medium text-neutral-600"
-            target="__blank"
-            href="https://twitter.com/mannupaaji">@mannupaaji</a
-          >
-        </div>
-      </div>
-      <div class="flex flex-col">
-        <div class="flex justify-center space-y-4 flex-col mt-4">
-          <a
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="/components">Components</a
-          ><a
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="/pricing">Pricing</a
-          ><a
-            target="__blank"
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="https://twitter.com/aceternitylabs">Twitter</a
-          ><a
-            target="__blank"
-            class="transition-colors hover:text-foreground/80 text-foreground/60"
-            href="https://discord.gg/ftZbQvCdN7">Discord</a
-          >
         </div>
       </div>
     </div>

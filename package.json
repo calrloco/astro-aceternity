@@ -18,7 +18,7 @@
     "@tabler/icons-react": "^3.2.0",
     "@types/react": "^18.2.77",
     "@types/react-dom": "^18.2.25",
-    "astro": "^4.6.0",
+    "astro": "^4.10.2",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.28",
     "mini-svg-data-uri": "^1.4.4",
